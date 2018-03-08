@@ -7,7 +7,7 @@
 Make sure you have `Elixir` installed(https://elixir-lang.org/install.html).
 Open your terminal emulator inside project folder and enter `iex`:
 
-```elixir
+```terminal
 project> iex -S Mix
 
 iex> Identicon.main("YOUR_STRING")
