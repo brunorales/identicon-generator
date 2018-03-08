@@ -1,20 +1,18 @@
-# Identicon
+# Identicon Generator
 
-**TODO: Add description**
+**Generates an unique identicon based on input string.**
 
-## Installation
+## Usage
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+Make sure you have `Elixir` installed(https://elixir-lang.org/install.html).
+Open your terminal emulator inside project folder and enter `iex`:
 
 ```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
+project> iex -S Mix
+
+iex> Identicon.main("YOUR_STRING")
+:ok
+iex>
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
+Image will be saved in the same folder.
